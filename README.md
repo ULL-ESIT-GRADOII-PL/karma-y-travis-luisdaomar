@@ -2,6 +2,9 @@
 
 * En la practica se realizó lo siguiente:
 
+<http://i.imgur.com/5mwvOwN.png>
+
+
 Uso de karma para ver la ejecución de pruebas en diferentes navegadores.
 Uso de travis para integración continua.
 Utilización de gulp
