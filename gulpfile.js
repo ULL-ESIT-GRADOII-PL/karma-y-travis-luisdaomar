@@ -3,6 +3,7 @@ var gulp    = require('gulp'),
     uglify  = require('gulp-uglify'),
     concat  = require('gulp-concat');
 var karma   = require('gulp-karma');
+var ghPages = require('gulp-gh-pages');
 var htmlmin = require('gulp-htmlmin');
 var cleanCSS = require('gulp-clean-css');
 var minify = require('gulp-minify');
@@ -46,6 +47,11 @@ gulp.task('test', function() {
 gulp.task('clean', function(cb) {
   del(['minified/*'], cb);
 });
+
+gulp.task('deploy', function() {
+     return gulp.src('./minified/**/*')
+       .pipe(ghPages());
+   });
 
 gulp.task('default', ['minify', 'minify-css', 'compress'], function() {
   gulp.src([])
