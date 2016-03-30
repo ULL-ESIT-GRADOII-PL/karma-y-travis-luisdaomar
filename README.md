@@ -1,38 +1,16 @@
-# Tutorial on Mocha,Chai,Blanket y gulp* Path Build:
-[![Build Status](https://travis-ci.org/Luisdavidpm/karma-y-travis-luisdaomar.svg?branch=master)](https://travis-ci.org/Luisdavidpm/karma-y-travis-luisdaomar)
-
-
-Para informacion extra mirar:
-
-* [Using Mocha JS, Chai JS and Sinon JS to Test your Frontend JavaScript Code](http://blog.codeship.com/mocha-js-chai-sinon-frontend-javascript-code-testing-tutorial/)
-
-* [Get your Frontend JavaScript Code Covered](https://nicolas.perriault.net/code/2013/get-your-frontend-javascript-code-covered/)
-
-by Nicolas Perriault.
-
-Para instalar las dependencias:
-
-                        $ npm install -g mocha
-                        $ mkdir vendor
-                        $ mocha init vendor
-                        $ npm run-script chai
-                        $ npm run-script sinon
+# Karma y Travis
 
 * En la practica se realizó lo siguiente:
 
-* Realización de prueba en mocha y chai
-* Comprobación de cubrimiento de código mediante blanket
+* Uso de karma para ver la ejecución de pruebas en diferentes navegadores.
+* Uso de travis para integración continua.
 * Utilización de gulp
 
-* Enlaces del la página extendida:
-  <http://alu0100819182.github.io/mocha-y-chai-luisdaomar>
-
 * Enlace del repo de la practica:
-  <https://github.com/alu0100819182/mocha-y-chai-luisdaomar/tree/gh-pages>
-
+  <https://github.com/Luisdavidpm/karma-y-travis-luisdaomar>
 
 * Enlace del repositorio de la comunidad:
-  <https://github.com/ULL-ESIT-GRADOII-PL/mocha-y-chai-luisdaomar>
+  <https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-luisdaomar>
 
 * Repositorio de Omar:
   <http://alu0100819182.github.io>
