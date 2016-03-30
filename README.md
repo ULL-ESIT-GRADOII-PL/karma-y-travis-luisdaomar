@@ -40,3 +40,6 @@ Para instalar las dependencias:
 
 * Enlace del campus virtual:
   <https://campusvirtual.ull.es/1516/mod/page/view.php?id=182932>
+
+* Path Build:
+[![Build Status](https://travis-ci.org/Luisdavidpm/karma-y-travis-luisdaomar.svg?branch=master)](https://travis-ci.org/Luisdavidpm/karma-y-travis-luisdaomar)
