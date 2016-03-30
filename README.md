@@ -25,3 +25,6 @@ Utilización de gulp
 
 * Enlace del campus virtual:
   <https://campusvirtual.ull.es/1516/mod/page/view.php?id=182932>
+
+* Enlace de las pruebas desplegadas:
+  < http://luisdavidpm.github.io/karma-y-travis-luisdaomar>
