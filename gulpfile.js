@@ -1,8 +1,13 @@
-var gulp = require('gulp');
+var gulp    = require('gulp'),
+    gutil   = require('gulp-util'),
+    uglify  = require('gulp-uglify'),
+    concat  = require('gulp-concat');
+var karma   = require('gulp-karma');
 var htmlmin = require('gulp-htmlmin');
 var cleanCSS = require('gulp-clean-css');
 var minify = require('gulp-minify');
 var del     = require('del');
+
 
 gulp.task('minify', function() {
   return gulp.src('index.html')
@@ -25,9 +30,27 @@ gulp.task('compress', function() {
     .pipe(gulp.dest('minified'))
 });
 
+gulp.task('test', function() {
+  // Be sure to return the stream
+  return gulp.src([])
+    .pipe(karma({
+      configFile: 'karma.conf.js',
+      action: 'run'
+    }))
+    .on('error', function(err) {
+      // Make sure failed tests cause gulp to exit non-zero
+      throw err;
+    });
+});
+
 gulp.task('clean', function(cb) {
   del(['minified/*'], cb);
 });
 
 gulp.task('default', ['minify-js', 'minify-css', 'minify-html'], function() {
-});
+  gulp.src([])
+     .pipe(karma({
+       configFile: 'karma.conf.js',
+       action: 'watch'
+     }));
+ });
