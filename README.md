@@ -1,4 +1,6 @@
-# Tutorial on Mocha,Chai,Blanket y gulp
+# Tutorial on Mocha,Chai,Blanket y gulp* Path Build:
+[![Build Status](https://travis-ci.org/Luisdavidpm/karma-y-travis-luisdaomar.svg?branch=master)](https://travis-ci.org/Luisdavidpm/karma-y-travis-luisdaomar)
+
 
 Para informacion extra mirar:
 
