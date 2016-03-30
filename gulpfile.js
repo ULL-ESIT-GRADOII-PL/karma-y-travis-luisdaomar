@@ -47,7 +47,7 @@ gulp.task('clean', function(cb) {
   del(['minified/*'], cb);
 });
 
-gulp.task('default', ['minify-js', 'minify-css', 'minify-html'], function() {
+gulp.task('default', ['minify', 'minify-css', 'compress'], function() {
   gulp.src([])
      .pipe(karma({
        configFile: 'karma.conf.js',
