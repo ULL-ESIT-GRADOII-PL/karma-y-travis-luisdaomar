@@ -1,5 +1,7 @@
 # Karma y Travis
 
+[![Build Status](https://travis-ci.org/Luisdavidpm/karma-y-travis-luisdaomar.svg?branch=master)](https://travis-ci.org/Luisdavidpm/karma-y-travis-luisdaomar)
+
 * En la practica se realizó lo siguiente:
 
 ![Travis](http://i.imgur.com/5mwvOwN.png "Travis")
