@@ -32,13 +32,13 @@ Medida.match = function(valor) {
 Medida.measures = {};
 
 Medida.convertir = function(valor) {
-  var measures = Medida.measures;
-  measures.c = Celsius;
-  measures.C = Celsius;
-  measures.f = Farenheit;
-  measures.F = Farenheit;
-  measures.k = Kelvin;
-  measures.K = Kelvin;
+  //var measures = Medida.measures;
+  //measures.c = Celsius;
+  //measures.C = Celsius;
+  //measures.f = Farenheit;
+  //measures.F = Farenheit;
+  //measures.k = Kelvin;
+  //measures.K = Kelvin;
   var match = Medida.match(valor);
   if (match) {
     var numero = match.val;
