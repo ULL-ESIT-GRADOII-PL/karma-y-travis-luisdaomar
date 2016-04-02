@@ -1,5 +1,12 @@
 Temperatura.prototype = new Medida ();
 Temperatura.prototype.constructor = Temperatura;
+var measures = Medida.measures;
+measures.c = Celsius;
+measures.C = Celsius;
+measures.f = Farenheit;
+measures.F = Farenheit;
+measures.k = Kelvin;
+measures.K = Kelvin;
 
 function Temperatura(valor,tipo)
 {
