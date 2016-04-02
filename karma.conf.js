@@ -80,9 +80,9 @@ module.exports = function(config) {
     // - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
     browsers: [
                'Chrome',
-               //'Firefox',
-               //'PhantomJS',
-               //'Safari'
+               'Firefox',
+               'PhantomJS',
+               'Safari'
                ],
 
 
